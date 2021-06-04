@@ -26,7 +26,7 @@ namespace ProxyService
 
             serviceInstaller.StartType = ServiceStartMode.Manual;
             serviceInstaller.ServiceName = "ProxySearch";
-            serviceInstaller.Description = "Search proxy on google and yandex";
+            serviceInstaller.Description = "Search proxy on google and yandex and other!";
 
             Installers.Add(processInstaller);
             Installers.Add(serviceInstaller);
